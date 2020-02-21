@@ -9,7 +9,7 @@
   "use_nosql_mongodb": "no",
   "use_cockroachdb": "no",
   "use_admin": "no",
-  "uses_cockroachdb",
+  "uses_cockroachdb": "no",
   "use_security": "yes",
   "use_rest": "yes",
   "use_socketio": "{{ cookiecutter.use_rest }}",
