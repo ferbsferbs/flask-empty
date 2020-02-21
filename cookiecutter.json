@@ -14,5 +14,5 @@
   "use_async_tasks": "{{ cookiecutter.use_socketio }}",
   "use_http_mixin": "yes",
   "create_index_view": "{{ cookiecutter.use_http_mixin }}",
-  "uses_cockroachdb": "no"
+  "use_cockroachdb": "no"
 }
