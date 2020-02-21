@@ -7,12 +7,13 @@
   "use_sql_mysql": "no",
   "use_sql_cockroachdb": "no",
   "use_nosql_mongodb": "no",
+  "use_cockroachdb": "no",
   "use_admin": "no",
   "use_security": "yes",
   "use_rest": "yes",
   "use_socketio": "{{ cookiecutter.use_rest }}",
   "use_async_tasks": "{{ cookiecutter.use_socketio }}",
   "use_http_mixin": "yes",
-  "create_index_view": "{{ cookiecutter.use_http_mixin }}",
-  "use_cockroachdb": "no"
+  "create_index_view": "{{ cookiecutter.use_http_mixin }}"
+  
 }
